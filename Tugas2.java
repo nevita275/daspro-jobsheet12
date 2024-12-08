@@ -6,7 +6,6 @@ public class Tugas2 {
         }
         return n + penjumlahanRekursif(n - 1); 
     }
-
     public static void main(String[] args) {
         int f = 8; 
         int hasil = penjumlahanRekursif(f);
